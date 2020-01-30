@@ -5,7 +5,7 @@ from datetime import datetime
 
 startTime = datetime.now()
 
-data = np.arange(0,10000)
+data = np.arange(0,100000)
 
 for i in range(0,100000):
     data*=data
