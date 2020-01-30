@@ -7,7 +7,7 @@ startTime = datetime.now()
 
 data = np.arange(0,100000)
 
-for i in range(0,100000):
+for i in range(0,10000):
     data*=data
 
 endTime = datetime.now()
